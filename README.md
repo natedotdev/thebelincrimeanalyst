@@ -45,31 +45,3 @@ DATA_PATH = PATH.joinpath("../datasets").resolve()<br>
 python index.py or python app.py<br>
 #click on the local deployed link<br>
 <br>
-<br>
-#Installing Dash( contains plotly for graph) using the terminal
-pip install dash
-
-#Installing Dash( contains plotly for graph)
-pip install pandas
-
-from dash import Dash, html, dcc 
-import plotly.express as px 
-import pandas as pd 
-
-#Reading the data
-PATH = pathlib.Path(__file__).parent
-DATA_PATH = PATH.joinpath("../datasets").resolve()
-df = pd.read_csv(DATA_PATH.joinpath("berlin_crime.csv"))
-
-
-app = Dash(__name__)
-
-#Reading the data
-PATH = pathlib.Path(__file__).parent
-DATA_PATH = PATH.joinpath("../datasets").resolve()
-
-#Converting the berlin data from csv to a pandas dataframedf = pd.read_csv(DATA_PATH.joinpath("berlin_crime.csv"))
-
-#To run app, type the following and click the link in the terminal
-python index.py or python app.py
-#click on the local deployed link
