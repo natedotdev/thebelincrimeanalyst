@@ -39,7 +39,8 @@ app = Dash(__name__)<br>
 PATH = pathlib.Path(__file__).parent<br>
 DATA_PATH = PATH.joinpath("../datasets").resolve()<br>
 <br>
-#Converting the berlin data from csv to a pandas dataframedf = pd.read_csv(DATA_PATH.joinpath("berlin_crime.csv"))<br>
+#Converting the berlin data from csv to a pandas dataframe<br>
+df = pd.read_csv(DATA_PATH.joinpath("berlin_crime.csv"))<br>
 <br>
 #To run app, type the following and click the link in the terminal<br>
 python index.py or python app.py<br>
