@@ -11,7 +11,9 @@ To answer these questions, 
 2) What is the rate of crime growth? <br>
 3) What kinds of crimes are committed? <br>
 
-#Must step- install all dependencies in the requirement.txt file
+##Must step
+<br>
+install all dependencies in the requirement.txt file
 
 #Installing Dash( contains plotly for graph) using the terminal
 pip install dash
@@ -40,4 +42,3 @@ DATA_PATH = PATH.joinpath("../datasets").resolve()
 #To run app, type the following and click the link in the terminal
 python index.py or python app.py
 #click on the local deployed link
-<img width="709" alt="image" src="https://github.com/natedotdev/thebelincrimeanalyst/assets/153172449/62e4d7d7-7bed-46c8-9509-487c4b41ddb1">
